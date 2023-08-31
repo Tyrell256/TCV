@@ -2,3 +2,33 @@ html{
  font-family: Arial, Helvetica, sans-serif;  
    
 }
+/*-- Nav Bar --*/
+nav{
+    text-decoration: none;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    padding: 8px;
+    margin: 4px;
+    color: white;
+    background-color: ;
+}
+
+
+/* -- Mission Statment --*/
+.mission{
+    text-align: center;
+    margin: auto;
+}
+
+.mission h1{
+ font-weight: bold;
+ margin-top: 20px;
+ margin-bottom: 10px;
+}
+.mission p{
+ font-style: italic;
+ margin-bottom: 20px;  
+}
