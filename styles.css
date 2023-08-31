@@ -13,7 +13,18 @@ nav a{
     padding: 8px;
     margin: 4px;
     color: white;
-    background-color: ;
+    background-color: #f40000;
+    border-style: outset;
+    border-radius: 8px;
+}
+
+nav a:hover,
+nav a:active{
+    border-style: inset;
+    background-color: #F44E3F;
+    position: relative;
+    left: 2px;
+    top: 2px;
 }
 
 
