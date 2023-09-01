@@ -3,9 +3,7 @@ html{
    
 }
 /*-- Nav Bar --*/
-nav{
-    
-}
+
 nav li{
     display: inline;
     
@@ -32,13 +30,13 @@ nav a:active{
 
 /* -- Mission Statment --*/
 .mission{
-    text-align: center;
+    
     margin: auto;
 }
 
 .mission h1{
  font-weight: bold;
- margin-top: 20px;
+
  margin-bottom: 10px;
 }
 .mission p{
