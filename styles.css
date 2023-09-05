@@ -1,8 +1,35 @@
 html{
  font-family: Arial, Helvetica, sans-serif;  
-   
+
 }
+body{
+    margin: 0%;
+}
+/*-- Screen Size --*/
+
+
+/*-- Header --*/
+header{
+    display: flex;
+    flex-wrap: wrap;
+    border: #f40000 solid;
+    justify-content: space-evenly;
+    
+    align-items: baseline;
+}
+
+.number1{
+
+}
+
+
+
 /*-- Nav Bar --*/
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 
 nav li{
     display: inline;
@@ -16,6 +43,8 @@ nav a{
     border-style: outset;
     border-radius: 8px;
     text-decoration: none;
+    font-size: xx-large;
+    text-align: center;
 }
 
 nav a:hover,
@@ -26,24 +55,57 @@ nav a:active{
     left: 2px;
     top: 2px;
 }
+@media screen and (min-width: 600px) {
+    nav{
+        justify-content: right;
+        flex-direction: row;
+    }
+    
+}
+/* -- Banner -- */
+.banner{
+position: relative ;
+border: #f40000 solid;
+}
+.banner h1{
+z-index: 1;
+position: absolute;
+font-weight: 900;
+
+}
+.banner img{
+    position: relative;
+    z-index: 0;
+    opacity: 80%;
+}
 
 
 /* -- Mission Statment --*/
 .mission{
+  background: linear-gradient(45deg, rgb(98, 98, 98), white);
+  padding: 0;
+ 
     
-    margin: auto;
 }
 
 .mission h1{
  font-weight: bold;
-
+ text-align: center;
  margin-bottom: 10px;
 }
 .mission p{
  font-style: italic;
  margin-bottom: 20px;  
+ text-align: center;
+}
+
+/* -- Social Media -- */
+ .social{
+    width: 30px;
+    height: 30px;
 }
 
 footer{
     background-color: #d0ccd0;
+    
 }
