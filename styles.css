@@ -104,16 +104,30 @@ font-weight: 900;
     width: 419px;
     background-color: rgba(255, 228, 196, .6);
     padding: 0 16px 16px 16px;
-    border-radius:  9px;
+    border-radius:  16px;
+    display: inline;
 }
 
+.about .container h1{
+    font-size: 2.5rem;
+    padding-top: 8px;
+    border-bottom: 4px goldenrod dotted;
+    text-shadow: 2px 2px 2px goldenrod;
+    color: black;
+}
+.about .container img{
+    border-radius: 16px;
+    width: 100%;
+}
 
 
 /* -- Social Media -- */
- .social{
-    width: 30px;
-    height: 30px;
+ .about .container .social img{
+    width: 10%;
+    height: 10%;
 }
+
+/* -- Footer -- */
 
 footer{
     background-color: #d0ccd0;
