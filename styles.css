@@ -65,18 +65,20 @@ nav a:active{
 /* -- Banner -- */
 .banner{
 position: relative ;
-border: #f40000 solid;
+
 }
 .banner h1{
 z-index: 1;
 position: absolute;
 font-weight: 900;
+padding-left: 10px;
 
 }
 .banner img{
     position: relative;
     z-index: 0;
     opacity: 80%;
+    width: 100%;
 }
 
 
