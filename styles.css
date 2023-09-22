@@ -114,6 +114,10 @@ color: aliceblue;
 }
 
 /* -- Companies -- */
+.name{
+    text-align: center;
+}
+
 .Pictures img {
     width: 50%;
         
@@ -192,11 +196,7 @@ color: aliceblue;
 
 footer{
     background: linear-gradient(45deg, rgb(98, 98, 98), white); 
-    bottom: 0;
-
-    
-    
-    
+    bottom: 0; 
 }
 footer h2{
     color: black;
