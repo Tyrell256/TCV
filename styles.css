@@ -79,7 +79,7 @@ font-weight: 900;
 padding-left: 20%;
 padding-top: 7%;
 font-size: 72px;
-color: aliceblue;
+color: bisque;
 }
 .banner img{
     position: relative;
@@ -189,6 +189,34 @@ color: aliceblue;
       flex: 100%;
       max-width: 100%;
     }
+  }
+  .store{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+  }
+  .store img{
+    
+    max-width: 50%;
+    max-height: 50%;
+  }
+  .store h1{
+    font-size: 50px;
+    padding-right: 20%;
+    
+    
+  }
+  .store p{
+    font-size: 16px;
+    align-self:  ;
+  }
+  .store-content{
+    height: 100%;
+    padding: 10px;
+  }
+  .store-content img{
+    width: 50px;
+    height: auto;
   }
 
 
