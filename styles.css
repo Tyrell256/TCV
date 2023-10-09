@@ -80,6 +80,7 @@ padding-left: 20%;
 padding-top: 7%;
 font-size: 72px;
 color: bisque;
+text-shadow: 2px 2px #ff0000;
 }
 .banner img{
     position: relative;
@@ -94,10 +95,7 @@ color: bisque;
 /* -- Mission Statment --*/
 .mission{
   background: linear-gradient(45deg, rgb(98, 98, 98), white);
-  margin-top: -25px;
-  
- 
-    
+  margin-top: -25px;   
 }
 
 .mission h1{
@@ -150,7 +148,9 @@ color: bisque;
     
 }
 .grid-box-1 img{
-    min-height: 75%;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 .grid_container h1{
     float: right;
